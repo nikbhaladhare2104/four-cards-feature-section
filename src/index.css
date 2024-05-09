@@ -38,6 +38,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all 1s;
 }
 body.darkMode {
   background-color: black;
@@ -49,7 +50,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   transition: all 1s;
 }
 main.darkMode {
@@ -62,7 +63,7 @@ main.darkMode {
   align-items: center;
   gap: 8px;
   margin-top: 2rem;
-  transition: 1s ease all ;
+  transition: all 1s;
 }
 .toggle-btn {
   width: 40px;
@@ -74,6 +75,7 @@ main.darkMode {
   cursor: pointer;
   display: flex;
   justify-content: left;
+  transition: all 1s;
 }
 main.darkMode .toggle-btn{
   justify-content: right;
@@ -158,6 +160,7 @@ main.darkMode .dark {
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, var(--Red) 0 -8px 2px -2px ; */
   border-radius: 10px;
   cursor: pointer;
+  transition: all 1s;
 }
 .card:hover {
   transform: scale(1.05);
